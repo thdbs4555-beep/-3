@@ -1,0 +1,32 @@
+<h1>진소윤</h1>
+<p>안녕하세요. 한양여자대학교 빅데이터과 2601985 진소윤입니다.
+저는 내향적인 성격입니다.</p>
+<ul>좋아하는 것은
+<li>노래듣기</li>
+<li>게임하기</li>
+<li>영화보기</li>
+입니다.
+</ul>
+
+<a href="about.html">about</a>
+
+
+<head><link rel="stylesheet" href="style.css"></head>
+
+/* 제목 */
+h1 {
+  color: navy;
+  font-size: 32px;
+}
+
+/* 1. 본문을 카드처럼 */
+body {
+  padding: 20px;
+  background-color: lightyellow;
+}
+
+/* 2. 좋아하는 것 목록 가로 정렬 */
+ul {
+  display: flex;
+  gap: 10px;
+}
